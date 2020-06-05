@@ -1,0 +1,13 @@
+body{
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#header{
+    text-align: center;
+    width: 100%;
+    padding:1% 0;
+    background-color: violet;
+}
