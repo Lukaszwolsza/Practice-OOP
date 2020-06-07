@@ -12,59 +12,35 @@ body{
     background-color: #8e44ad;
 }
 
-#first-box{
-    border:1px solid red;
-    height: 350px;
-    width:600px;
-    margin: 2% auto;
+.project-boxes{
+    width:700px;
+    margin:2% auto;
+    -webkit-box-shadow: -1px -1px 16px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 16px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 16px -1px rgba(0,0,0,0.75);
+    
 }
-h3{
+.header-of-project{
+    color:white;
+    background-color: black;
+    padding:1% 0;
     text-align: center;
+    width:100%;
 }
-
-.project{
-    width:90%;
-    border:1px solid red;
-    height:120px;
-    margin:2%;
-}
-.backdrop{
-    display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: ; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-.backdrop.visible{
-    display:block;
-}
-
-.backdropBox{
-    position: absolute;
-    border-radius:25px;
-    background-color: blue;
-    left:0;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
-    text-align: center;
-    background-color: white;
-    -webkit-box-shadow: 5px 5px 45px 6px rgba(0,0,0,0.33);
-    -moz-box-shadow: 5px 5px 45px 6px rgba(0,0,0,0.33);
-    box-shadow: 5px 5px 45px 6px rgba(0,0,0,0.33);
+p{
+    text-indent: 3%;
     padding:1%;
-    margin-top: 15%;
-    display:none;
-    z-index:10;
-   
 }
-.backdropBox.visible{
-    display:block;
+button{
+    width: 20%;
+    margin: 2% auto;
+    border:none;
+    background-color: yellowgreen;
+    padding:2%;
+    margin-left: 10%;
+}
+.project{
+    border:1px solid black;
+    width:95%;
+    margin:2% auto;
 }
