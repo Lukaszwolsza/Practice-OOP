@@ -8,18 +8,12 @@
 
     <div id = "header">
         <h1 class = "text-banner">OOP APP </h1>
+        <button class = "btn-new-project" id = "newProjBtn">Add new project</button>
     </div>
 
     <div class = "project-boxes">
-        <div class = "header-of-project">
-            <h2>During projects</h2>
-        </div>
-        
-        <div class="project">
-            <h3>Lorem ipsum</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <button class = "infoBtn">Information</button>
-            <button class = "finishBtn">Finished !</button>
+        <div class = "header-of-project" >
+            <h2 id = "currentProjectBox">Current projects</h2>
         </div>
     </div>
 
@@ -27,24 +21,19 @@
         <div class = "header-of-project">
             <h2>Finished projects</h2>
         </div>
-        
-        <div class="project">
-            <h3>Lorem ipsum</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <button class = "infoBtn">Information</button>
-            <button class = "finishBtn">Finished !</button>
-        </div>
     </div>
     
     <div class = "modal-bg">
         <div class = "modal">
-            <h3>Hello world</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <h3>Adding new project</h3>
+                <label class = "new-project-label">Project name</label>
+                <input type = "text" class = "new-project-input" id = "projNameInput"><br>
+                <label class = "new-project-label">Project description</label>
+                <input type = "text" class = "new-project-input" id = "projDescInput">
+                <button id = "newProjectAdd" class = "adding-new-project-button">Add !</button>
             <button class = "modal-btn">Close</button>
         </div>
     </div>
-
 
 </body>
 </html>
